@@ -1,12 +1,12 @@
 # wonda ✨
 
 [//]: # (Links to examples)
-[text formatting]: https://github.com/wondergram-org/framework/blob/main/examples/high_level/formatting_example.py
-[middleware]: https://github.com/wondergram-org/framework/blob/main/examples/high_level/setup_middleware.py
-[file uploading]: https://github.com/wondergram-org/framework/blob/main/examples/high_level/file_upload_example.py
-[blueprints]: https://github.com/wondergram-org/framework/blob/main/examples/high_level/load_blueprints.py
-[FSM]: https://github.com/wondergram-org/framework/blob/main/examples/high_level/use_state_dispenser.py
-[awesome examples]: https://github.com/wondergram-org/framework/tree/main/examples/high_level
+[text formatting]: https://github.com/wondergram-org/wonda/blob/main/examples/high_level/formatting_example.py
+[middleware]: https://github.com/wondergram-org/wonda/blob/main/examples/high_level/setup_middleware.py
+[file uploading]: https://github.com/wondergram-org/wonda/blob/main/examples/high_level/file_upload_example.py
+[blueprints]: https://github.com/wondergram-org/wonda/blob/main/examples/high_level/load_blueprints.py
+[FSM]: https://github.com/wondergram-org/wonda/blob/main/examples/high_level/use_state_dispenser.py
+[awesome examples]: https://github.com/wondergram-org/wonda/tree/main/examples/high_level
 
 ![Version](https://img.shields.io/pypi/v/wonda?label=version&style=flat-square)
 ![Package downloads](https://img.shields.io/pypi/dw/wonda?label=downloads&style=flat-square)
@@ -24,7 +24,7 @@ To install a default version, use
 pip install -U wonda
 ```
 
-If you decided to go beta, use the same command with `--pre` option or update from dev branch .zip [archive](https://github.com/wondergram-org/framework/archive/refs/heads/dev.zip).
+If you decided to go beta, use the same command with `--pre` option or update from dev branch .zip [archive](https://github.com/wondergram-org/wonda/archive/refs/heads/dev.zip).
 
 You can make `wonda` perform even better by installing power-ups. They are optional, but highly recommended. Install them using
 
@@ -32,7 +32,7 @@ You can make `wonda` perform even better by installing power-ups. They are optio
 pip install --force wonda[power-ups]
 ```
 
-To see the full list of packages, refer to our [project file](https://github.com/wondergram-org/framework/blob/main/pyproject.toml).
+To see the full list of packages, refer to our [project file](https://github.com/wondergram-org/wonda/blob/main/pyproject.toml).
 
 ## > examples
 
