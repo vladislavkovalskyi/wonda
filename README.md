@@ -1,4 +1,4 @@
-# wonda ✨
+# Wonda ✨
 
 [//]: # (Links to examples)
 [text formatting]: https://github.com/wondergram-org/wonda/blob/main/examples/high_level/formatting_example.py
@@ -14,19 +14,19 @@
 
 ## > why
 
-`wonda` empowers you to build powerful bots using simple tools while not sacrifing performance and extensibility. It has all batteries included: [text formatting], [file uploading], [blueprints], [middleware] and [FSM] are available to use right away.
+Wonda empowers you to build powerful bots using simple extensible tools while not sacrifing any performance. It has all batteries included: [text formatting], [file uploading], [blueprints], [middleware] and [FSM] are all built-in.
 
 ## > install
 
-To install a default version, use
+To install stable version, use
 
 ```shell script
 pip install -U wonda
 ```
 
-If you decided to go beta, use the same command with `--pre` option or update from dev branch .zip [archive](https://github.com/wondergram-org/wonda/archive/refs/heads/dev.zip).
+If you decide to go beta, use the same command with `--pre` option or update from dev branch .zip [archive](https://github.com/wondergram-org/wonda/archive/refs/heads/dev.zip).
 
-You can make `wonda` perform even better by installing power-ups. They are optional, but highly recommended. Install them using
+You can make Wonda perform even better by installing power-ups. They're optional, but highly recommended.
 
 ```shell script
 pip install --force wonda[power-ups]
@@ -36,7 +36,7 @@ To see the full list of packages, refer to our [project file](https://github.com
 
 ## > examples
 
-It's easy to build an echo bot with `wonda` — it's ready in *six* lines of code. And expanding it further is a piece of cake too.
+It's easy to build an echo bot with Wonda — it's ready in *six* lines of code. And expanding it further is a piece of cake too.
 
 ```python
 from wonda import Bot
@@ -51,7 +51,7 @@ async def handler(_) -> str:
 bot.run_forever()
 ```
 
-Isn't it beautiful how little code is needed to achieve something this big? To get started on `wonda`, check out our [awesome examples].
+Isn't it beautiful how little code is needed to achieve something this big? To get started on Wonda, check out our [awesome examples].
 
 ## > license
 
