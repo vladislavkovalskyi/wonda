@@ -12,11 +12,11 @@
 ![Package downloads](https://img.shields.io/pypi/dw/wonda?label=downloads&style=flat-square)
 ![Supported Python versions](https://img.shields.io/pypi/pyversions/wonda?label=supported%20python%20versions&style=flat-square)
 
-## > why
+## Why
 
 Wonda empowers you to build powerful bots using simple extensible tools while not sacrifing any performance. It has all batteries included: [text formatting], [file uploading], [blueprints], [middleware] and [FSM] are all built-in.
 
-## > install
+## Install
 
 To install stable version, use
 
@@ -34,7 +34,7 @@ pip install --force wonda[power-ups]
 
 To see the full list of packages, refer to our [project file](https://github.com/wondergram-org/wonda/blob/main/pyproject.toml).
 
-## > examples
+## Usage
 
 It's easy to build an echo bot with Wonda — it's ready in *six* lines of code. And expanding it further is a piece of cake too.
 
@@ -53,7 +53,7 @@ bot.run_forever()
 
 Isn't it beautiful how little code is needed to achieve something this big? To get started on Wonda, check out our [awesome examples].
 
-## > license
+## License
 
 This project is MIT licensed. Big thanks to maintainers and contributors of [vkbottle](https://github.com/vkbottle/vkbottle) upon which it is built!
 
