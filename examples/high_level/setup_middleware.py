@@ -1,4 +1,4 @@
-from wonda import BaseMiddleware, Bot, Message, CallbackQuery, Token
+from wonda import BaseMiddleware, Bot, Message, Token
 from wonda.bot.rules import Command
 
 from wonda.types.objects import User
@@ -6,10 +6,8 @@ from wonda.types.objects import User
 # Make a bot with a token from an environment variable.
 bot = Bot(Token.from_env())
 
-import inspect
 
-
-# @bot.labeler.message_view.register_middleware
+@bot.labeler.message_view.register_middleware
 class SimpleMiddleware(BaseMiddleware[Message]):
     async def pre(self) -> None:
         # This middleware will be called before all handlers.
@@ -22,10 +20,7 @@ class SimpleMiddleware(BaseMiddleware[Message]):
         await self.update.answer("Goodbye, world!")
 
 
-print(inspect.getmro(SimpleMiddleware))
-
-
-# @bot.labeler.message_view.register_middleware
+@bot.labeler.message_view.register_middleware
 class PassthroughMiddleware(BaseMiddleware[Message]):
     # You can actually have any number of pre and post middlewares.
 
@@ -61,4 +56,4 @@ async def who_am_i_handler(_, user: User) -> str:
 
 # Run loop > loop.run_forever() > with tasks created in loop_wrapper before.
 # The main polling task for bot is bot.run_polling()
-# bot.run_forever()
+bot.run_forever()
