@@ -35,7 +35,7 @@ class AioHTTPClient(ABCHTTPClient):
         self, url: str, method: str = "GET", data: Optional[dict] = None, **kwargs
     ) -> "ClientResponse":
         if not self.session:
-            connector = TCPConnector(ssl=self.ssl)
+            connector = TCPConnector(ssl=self.ssl, force_close=True)
             self.session = ClientSession(
                 connector=connector,
                 json_serialize=self.json_processing_module.dumps,
